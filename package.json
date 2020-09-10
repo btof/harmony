@@ -20,7 +20,7 @@
 		"express": "4.17.1",
 		"fartsampler": "0.1.6",
 		"metrics-influxdb": "1.0.1",
-		"mongodb": "3.6.1",
+		"mongodb": "3.6.2",
 		"rimraf": "2.7.1",
 		"winston": "2.4.5",
 		"winston-logstash-udp": "0.2.1"
