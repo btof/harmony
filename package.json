@@ -1,0 +1,28 @@
+{
+	"name": "bluetorch-harmony",
+	"version": "1.0.0",
+	"description": "A library for synchronizing a Mongo replica during runtime",
+	"scripts": {
+		"init-project": "npm config set cafile verdaccio.cer && npm install --registry=https://verdaccio-bluetorch.app.osft/",
+		"clean": "rimraf dist/* && rimraf logs/*",
+		"build": "npm run clean && tsc",
+		"start": "npm run build && node ./dist/app.js"
+	},
+	"author": "Lapid 1",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/express": "^4.17.4",
+		"@types/mongodb": "^3.5.14",
+		"ts-node": "^8.10.2",
+		"typescript": "^3.8.3"
+	},
+	"dependencies": {
+		"express": "^4.17.1",
+		"fartsampler": "^0.1.6",
+		"metrics-influxdb": "^1.0.1",
+		"mongodb": "^3.5.7",
+		"rimraf": "^2.6.3",
+		"winston": "2.4.4",
+		"winston-logstash-udp": "^0.2.1"
+	}
+}
