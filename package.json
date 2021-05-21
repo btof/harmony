@@ -13,7 +13,7 @@
 	"devDependencies": {
 		"@types/express": "4.17.11",
 		"@types/jest": "26.0.23",
-		"@types/mongodb": "3.6.15",
+		"@types/mongodb": "3.6.16",
 		"@types/node": "14.17.0",
 		"jest": "26.6.3",
 		"rimraf": "2.7.1",
@@ -25,7 +25,7 @@
 		"express": "4.17.1",
 		"fartsampler": "0.1.6",
 		"metrics-influxdb": "1.0.1",
-		"mongodb": "3.6.7",
+		"mongodb": "3.6.8",
 		"winston": "2.4.5",
 		"winston-logstash-udp": "0.2.1"
 	}
